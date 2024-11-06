@@ -28,7 +28,12 @@ const Main = () => {
                 </button>
             </div>
             <div className='flex flex-col justify-center items-center gap-5'>
-                <div className='bg-orange1 w-[350px] h-[350px] rounded-full'></div>
+                <div className='bg-orange1 w-[350px] h-[350px] rounded-full'>
+                    <img
+                        src='/PI-1.png'
+                        className='z-100 rounded-full'
+                    />
+                </div>
                 <div className='flex justify-center gap-3'>
                     <a href="https://github.com/ChiragBansal-tech" target="_blank" rel="noopener noreferrer">
                         <div className='hover:underline hover:text-orange1 text-xl'>
@@ -60,7 +65,7 @@ const Main = () => {
                                 Close
                             </button>
                             <a
-                                href="/path/to/your-resume.pdf" // Replace with the actual path to your resume PDF
+                                href="/path/to/your-resume.pdf"
                                 download="Chirag_Bansal_Resume.pdf"
                                 className="bg-orange1 hover:bg-orange-500 text-white py-2 px-4 rounded"
                             >

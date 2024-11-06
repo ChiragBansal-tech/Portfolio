@@ -25,7 +25,7 @@ const Projects = () => {
             <h1 className="text-[50px]">My <span className='text-orange1'>Projects</span></h1>
             <p className="text-lg mt-2">I have worked on various front-end projects, here are some of them</p>
             <div
-                className="grid grid-cols-2 gap-10 mt-7 overflow-y-auto"
+                className="grid lg:grid-cols-2 gap-10 mt-7 overflow-y-auto"
                 ref={scrollContainerRef}
                 style={{ scrollbarWidth: 'none' }}
             >

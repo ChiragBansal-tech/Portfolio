@@ -13,13 +13,13 @@ const Main = () => {
     };
 
     return (
-        <div className='grid grid-cols-[60%_40%] gap-5'>
+        <div className='grid grid-cols-1 md:grid-cols-[60%_40%] lg:grid-cols-[60%_40%] gap-5'>
             <div>
                 <p className='text-lg'>Hi I am</p>
-                <p className='text-orange1 text-3xl'>Chirag Bansal</p>
-                <p className='text-[60px]'>Front-end</p>
-                <p className='text-[60px] leading-8 text-center '>Developer</p>
-                <p className='w-[600px] mt-6'>Proficient front-end developer effective at creating robust websites that meet customer objectives. Experienced in collaborating with clients to assess needs, develop plans, and enhance design usability and performance. Skilled in using html, css, javascript, React.js, as well as other resources to fulfill design requirements.</p>
+                <p className='text-orange1  text-3xl'>Chirag Bansal</p>
+                <p className='text-[60px] sm:leading-20'>Front-end</p>
+                <p className='text-[60px] leading-8 md:text-center lg:text-center '>Developer</p>
+                <p className=' lg:w-[600px] mt-6'>Proficient front-end developer effective at creating robust websites that meet customer objectives. Experienced in collaborating with clients to assess needs, develop plans, and enhance design usability and performance. Skilled in using html, css, javascript, React.js, as well as other resources to fulfill design requirements.</p>
                 <button
                     onClick={handleHireMeClick}
                     className='bg-orange1 p-2 rounded-md px-4 mt-5 hover:bg-white hover:text-orange1'
@@ -28,7 +28,7 @@ const Main = () => {
                 </button>
             </div>
             <div className='flex flex-col justify-center items-center gap-5'>
-                <div className='bg-orange1 w-[350px] h-[350px] rounded-full'>
+                <div className='bg-orange1 w-[270px] h-[270px] lg:w-[350px] lg:h-[350px] rounded-full'>
                     <img
                         src='/PI-1.png'
                         className='z-100 rounded-full'

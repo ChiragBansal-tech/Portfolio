@@ -8,7 +8,7 @@ import Contact from './Sections/Contact';
 
 function App() {
   return (
-    <div className='px-[100px] bg-custom-gradient text-white py-5'>
+    <div className=' px-10 md:px-20 lg:px-[100px] bg-custom-gradient text-white py-5'>
       <div className='grid grid-cols-1 gap-10'>
         <Header />
         <div className='mt-20'>
@@ -17,13 +17,12 @@ function App() {
           <div className='flex justify-center mt-10'>
             <section id="experience"><Experience /></section>
           </div>
-          <div className='flex justify-center'>
+          <div className='flex justify-centermt-10'>
             <section id="project"><Projects /></section>
           </div>
           <div className='mt-10'>
             <section id="contact" className='flex justify-center'><Contact /></section>
           </div>
-          
         </div>
       </div>
     </div>

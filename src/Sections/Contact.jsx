@@ -7,7 +7,7 @@ const Contact = () => {
     const handleCloseModal = () => setIsModalOpen(false);
 
     return (
-        <div className='w-[50%] text-center'>
+        <div className='lg:w-[60%] text-center'>
             <h1 className='text-[50px]'>Let's <span className='text-orange1'>Work Together</span></h1>
             <p className='text-base mt-2'>
             I'm always open to new opportunities and collaborations! If you're looking for a dedicated front-end developer who values creativity, attention to detail, and building user-centric solutions, let's connect. Whether you have a project in mind or need help bringing your ideas to life, I'm excited to work with you.

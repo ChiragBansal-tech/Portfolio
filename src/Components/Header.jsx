@@ -37,28 +37,28 @@ const Header = () => {
             <div
                 className={`fixed top-0 left-0 right-0 z-50 transition-transform duration-300 ${
                     showHeader ? 'translate-y-5' : '-translate-y-full'
-                } bg-white/10 backdrop-blur-md p-2 rounded-full shadow-lg border border-white/20 mx-20`}
+                } bg-white/10 backdrop-blur-md p-2 rounded-full shadow-lg border border-white/20 mx-5 lg:mx-20`}
             >
-                <div className='grid grid-cols-7 justify-between text-center gap-2'>
-                    <div className='rounded-full hover:text-orange1 p-2'>
+                <div className='grid grid-cols-7 justify-between items-center text-center gap-1 lg:gap-2'>
+                    <div className=' hover:text-orange1 lg:p-2'>
                         <Link to="home" smooth={true} duration={500}><ScrollButton title="Home" /></Link>
                     </div>
-                    <div className='rounded-full hover:text-orange1 p-2'>
+                    <div className=' hover:text-orange1 lg:p-2'>
                         <Link to="about" smooth={true} duration={500}><ScrollButton title="About" /></Link>
                     </div>
-                    <div className='rounded-full hover:text-orange1 p-2'>
+                    <div className=' hover:text-orange1 lg:p-2'>
                         <Link to="experience" smooth={true} duration={500}><ScrollButton title="Experience" /></Link>
                     </div>
-                    <div className='rounded-full bg-orange1 p-2'>
+                    <div className='rounded-full bg-orange1 px-1 lg:p-2'>
                         <p className='text-white justify-center align-middle'>Chirag Bansal</p>
                     </div>
-                    <div className='rounded-full hover:text-orange1 p-2'>
+                    <div className=' hover:text-orange1 lg:p-2'>
                         <button onClick={handleResumeClick}><ScrollButton title="Resume" /></button>
                     </div>
-                    <div className='rounded-full hover:text-orange1 p-2'>
+                    <div className=' hover:text-orange1 lg:p-2'>
                         <Link to="project" smooth={true} duration={500}><ScrollButton title="Project" /></Link>
                     </div>
-                    <div className='rounded-full hover:text-orange1 p-2'>
+                    <div className=' hover:text-orange1 lg:p-2'>
                         <Link to="contact" smooth={true} duration={500}><ScrollButton title="Contact" /></Link>
                     </div>
                 </div>

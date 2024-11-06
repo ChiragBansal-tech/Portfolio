@@ -1,6 +1,5 @@
 import './App.css';
 import Header from './Components/Header';
-import Footer from './Components/Footer';
 import Main from './Sections/Main';
 import About from './Sections/About';
 import Experience from './Sections/Experince';

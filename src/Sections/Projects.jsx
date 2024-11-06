@@ -22,8 +22,8 @@ const Projects = () => {
 
     return (
         <div className="text-center overflow-hidden">
-            <h1 className="text-[50px]">My Projects</h1>
-            <p className="text-lg mt-2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus, expedita?</p>
+            <h1 className="text-[50px]">My <span className='text-orange1'>Projects</span></h1>
+            <p className="text-lg mt-2">I have worked on various front-end projects, here are some of them</p>
             <div
                 className="grid grid-cols-2 gap-10 mt-7 overflow-y-auto"
                 ref={scrollContainerRef}

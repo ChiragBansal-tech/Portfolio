@@ -13,8 +13,8 @@ const About = () => {
                 </div>
             </div>
             <div>
-                <h1 className='text-[50px]'>About Me</h1>
-                <p className='w-[600px]'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat voluptatum placeat ut perferendis mollitia? Eum explicabo et labore! Praesentium, alias tempore officiis possimus accusantium dolores odio qui error nulla est obcaecati, perferendis eveniet beatae atque odit magni consectetur soluta facere recusandae nesciunt. Temporibus ipsa quisquam asperiores accusantium aut eos corrupti!</p>
+                <h1 className='text-[50px]'><span className='text-orange1'>About</span> Me</h1>
+                <p className='w-[600px]'>Hello! I'm a passionate Front-end Developer with a love for creating intuitive, responsive, and visually appealing user interfaces. With experience in HTML, CSS, JavaScript, and modern frameworks like React, I focus on building seamless and dynamic web experiences. I thrive on turning design concepts into functional code and ensuring every detail aligns with the vision. My goal is to combine creativity and technical expertise to bring your ideas to life and provide users with smooth, engaging digital experiences.</p>
                 <Bar
                     label='HTML'
                     value='95'

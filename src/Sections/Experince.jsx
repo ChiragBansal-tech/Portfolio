@@ -18,7 +18,7 @@ const Experience = () => {
                     </div>
                     <div>
                         <p className='text-2xl text-orange1'>Front-end Developer</p>
-                        <ul className='w-[95%] list-disc marker:text-white'>
+                        <ul className='w-[95%] list-disc marker:text-orange1'>
                             <li>Implemented responsive web designs for mobile devices using HTML5, CSS3, JavaScript, React.js, TailwindCSS framework.</li>
                             <li>Integrated web applications with back-end systems using RESTful APIs.</li>
                             <li>Debugged front-end code issues and resolved cross-browser compatibility problems.</li>
@@ -39,7 +39,7 @@ const Experience = () => {
                     </div>
                     <div>
                         <p className='text-2xl text-orange1'>Front-end Developer Intern</p>
-                        <ul className='w-[95%] list-disc  marker:text-white'>
+                        <ul className='w-[95%] list-disc  marker:text-orange1'>
                             <li>Developed and maintained user-facing webpages using HTML, CSS, JavaScript, React.js.</li>
                             <li>Implemented responsive design techniques to ensure websites are optimized for mobile devices.</li>
                             <li>Integrated third-party APIs into existing web applications.</li>

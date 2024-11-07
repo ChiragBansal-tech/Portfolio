@@ -93,7 +93,7 @@ const Header = () => {
             )}
 
             {/* Div to render on smaller screens */}
-            <div className='absolute bg-orange1 rounded-full w-20 h-20 md:hidden flex text-3xl justify-center items-center left-[270px] '>
+            <div className='absolute bg-orange1 rounded-full w-20 h-20 md:hidden flex text-3xl justify-center items-center left-[290px] '>
                 <p className=''>CB</p>
             </div>
         </>

@@ -10,11 +10,11 @@ const Experience = () => {
                         <p className='text-2xl font-semibold'>DESIGNOWEB, Noida</p>
                         <p className='text-lg text-orange1 font-medium'>Jan/2024 ~ Present</p>
                     </div>
-                    <div className='relative flex flex-col items-center md:flex hidden'>
+                    <div className='relative flex flex-col items-center md:flex hidden '>
                         <div className='border-dashed border-[3px] rounded-full w-[60px] h-[60px] flex items-center justify-center'>
                             <div className='bg-orange1 h-10 w-10 rounded-full'></div>
                         </div>
-                        <div className='absolute border-dashed border-2 h-[363px] top-[65px] lg:h-[215px] lg:top-[67px]'></div>
+                        <div className='absolute border-dashed border-2 md:h-[90%] md:top-[63px] lg:h-[215px] lg:top-[67px] '></div>
                     </div>
                     <div>
                         <p className=' text-xl md:text-2xl lg:text-2xl text-orange1'>Front-end Developer</p>

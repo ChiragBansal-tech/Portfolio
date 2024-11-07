@@ -1,8 +1,23 @@
 import React, { useState, useEffect } from "react";
 
-const Card = ({ ProjectName, ProjectDescription, images, slideDirection }) => {
+const Card = ({ ProjectName, ProjectDescription, images }) => {
     const [currentImageIndex, setCurrentImageIndex] = useState(0);
     const [isSliding, setIsSliding] = useState(false);
+    const [slideDirection, setSlideDirection] = useState('right-to-left'); // Default to right-to-left
+
+    useEffect(() => {
+        const handleResize = () => {
+            // Set slide direction based on screen width
+            setSlideDirection(window.innerWidth >= 1024 ? 'top-to-bottom' : 'right-to-left');
+        };
+
+        // Initial check
+        handleResize();
+
+        // Update on resize
+        window.addEventListener('resize', handleResize);
+        return () => window.removeEventListener('resize', handleResize);
+    }, []);
 
     useEffect(() => {
         const imageChangeInterval = setInterval(() => {
@@ -11,7 +26,7 @@ const Card = ({ ProjectName, ProjectDescription, images, slideDirection }) => {
                 setCurrentImageIndex((prevIndex) => (prevIndex + 1) % images.length);
                 setIsSliding(false);
             }, 500); // Duration of slide-out animation
-        }, 2500); // Interval for image switch
+        }, 3000); // Interval for image switch
 
         return () => clearInterval(imageChangeInterval);
     }, [images.length]);
@@ -23,8 +38,8 @@ const Card = ({ ProjectName, ProjectDescription, images, slideDirection }) => {
                     isSliding
                         ? slideDirection === 'top-to-bottom'
                             ? 'transform -translate-y-full opacity-0'
-                            : 'transform translate-y-full opacity-0'
-                        : 'transform translate-y-0 opacity-100'
+                            : 'transform -translate-x-full opacity-0'
+                        : 'transform translate-x-0 translate-y-0 opacity-100'
                 }`}
                 style={{ transitionProperty: 'transform, opacity' }}
             >

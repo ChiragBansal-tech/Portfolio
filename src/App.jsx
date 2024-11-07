@@ -11,7 +11,7 @@ function App() {
     <div className=' px-10 md:px-20 lg:px-[100px] bg-custom-gradient text-white py-5'>
       <div className='grid grid-cols-1 gap-10'>
         <Header />
-        <div className='mt-20'>
+        <div className='md:mt-20 lg:mt-20'>
           <section id="home"><Main /></section>
           <div className='mt-10'><section id="about"><About /></section></div>
           <div className='flex justify-center mt-10'>

@@ -59,7 +59,7 @@ const Projects = () => {
                             "/CL-8.JPG",
                             "/CL-9.JPG",
                         ]}
-                        slideDirection="top-to-bottom"
+                        slideDirection="top-to-bottom "
                     />
                 </div>
             </div>

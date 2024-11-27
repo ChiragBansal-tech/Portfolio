@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import ScrollButton from './ScrollButton';
 import { Link } from 'react-scroll';
 
+
 const Header = () => {
     const [showHeader, setShowHeader] = useState(true);
     const [lastScrollY, setLastScrollY] = useState(0);
@@ -30,6 +31,11 @@ const Header = () => {
 
     const handleModalClose = () => {
         setIsResumeModalOpen(false);
+    };
+    
+    const handleClick = () => {
+        handleModalClose(false);
+        toast.success("Resume Downloading!"); 
     };
 
     return (
@@ -69,14 +75,15 @@ const Header = () => {
                     <div className="bg-black border-orange1 border-2 p-6 rounded-lg shadow-lg max-w-lg w-full">
                         <h2 className="text-lg font-semibold mb-4 text-white">My Resume</h2>
                         <iframe
-                            src="/CHIRAG BANSAL.pdf" 
+                            src="/CB.pdf" 
                             title="Resume PDF"
                             className="w-full h-96 mb-4"
-                        />
+                         />
                         <div className="flex justify-between">
                             <button
                                 onClick={handleModalClose}
                                 className="bg-gray-300 hover:bg-gray-400 text-black py-2 px-4 rounded"
+                                
                             >
                                 Close
                             </button>
@@ -84,6 +91,7 @@ const Header = () => {
                                 href="/path/to/your-resume.pdf" // Replace with the actual path to your resume PDF
                                 download="Chirag_Bansal_Resume.pdf"
                                 className="bg-orange1 hover:bg-orange-500 text-white py-2 px-4 rounded"
+                                onClick={handleClick}
                             >
                                 Download Resume
                             </a>

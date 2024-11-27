@@ -37,7 +37,6 @@ const Experience = () => {
                             <div className='bg-white h-10 w-10 rounded-full'></div>
                         </div>
                     </div>
-
                     <div>
                         <p className='text-2xl text-orange1'>Front-end Developer Intern</p>
                         <ul className='w-[95%] list-disc  marker:text-orange1'>

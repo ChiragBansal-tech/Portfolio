@@ -14,7 +14,7 @@ const About = () => {
             </div>
             <div className=' md:ml-8 lg:ml-8'>
                 <h1 className='text-[50px]'><span className='text-orange1'>About</span> Me</h1>
-                <p className='lg:w-[600px]'>Hello! I'm a passionate Front-end Developer with a love for creating intuitive, responsive, and visually appealing user interfaces. With experience in HTML, CSS, JavaScript, and modern frameworks like React, I focus on building seamless and dynamic web experiences. I thrive on turning design concepts into functional code and ensuring every detail aligns with the vision. My goal is to combine creativity and technical expertise to bring your ideas to life and provide users with smooth, engaging digital experiences.</p>
+                <p className='lg:w-[600px]'>Hello! I'm a dedicated MERN Stack Developer with a passion for crafting full-stack web applications that are intuitive, responsive, and scalable. With expertise in MongoDB, Express.js, React, and Node.js, I specialize in building end-to-end solutions that seamlessly integrate dynamic front-end interfaces with robust back-end architectures.</p>
                 <Bar
                     label='HTML'
                     value='95'
@@ -34,6 +34,18 @@ const About = () => {
                 <Bar
                     label='TailwindCSS'
                     value='95'
+                />
+                <Bar
+                    label='Node.js'
+                    value='75'
+                />
+                <Bar
+                    label='Express.js'
+                    value='80'
+                />
+                <Bar
+                    label='MongoDB'
+                    value='70'
                 />
             </div>
         </div>

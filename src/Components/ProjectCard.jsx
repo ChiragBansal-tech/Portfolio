@@ -3,18 +3,13 @@ import React, { useState, useEffect } from "react";
 const Card = ({ ProjectName, ProjectDescription, images }) => {
     const [currentImageIndex, setCurrentImageIndex] = useState(0);
     const [isSliding, setIsSliding] = useState(false);
-    const [slideDirection, setSlideDirection] = useState('right-to-left'); // Default to right-to-left
+    const [slideDirection, setSlideDirection] = useState('right-to-left'); 
 
     useEffect(() => {
         const handleResize = () => {
-            // Set slide direction based on screen width
             setSlideDirection(window.innerWidth >= 1024 ? 'top-to-bottom' : 'right-to-left');
         };
-
-        // Initial check
         handleResize();
-
-        // Update on resize
         window.addEventListener('resize', handleResize);
         return () => window.removeEventListener('resize', handleResize);
     }, []);
@@ -25,8 +20,8 @@ const Card = ({ ProjectName, ProjectDescription, images }) => {
             setTimeout(() => {
                 setCurrentImageIndex((prevIndex) => (prevIndex + 1) % images.length);
                 setIsSliding(false);
-            }, 500); // Duration of slide-out animation
-        }, 3000); // Interval for image switch
+            }, 500); 
+        }, 3000); 
 
         return () => clearInterval(imageChangeInterval);
     }, [images.length]);

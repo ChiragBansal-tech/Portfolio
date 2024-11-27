@@ -6,7 +6,7 @@ const Main = () => {
 
     const handleHireMeClick = () => {
         setIsResumeModalOpen(true);
-    };
+    };  
 
     const handleModalClose = () => {
         setIsResumeModalOpen(false);
@@ -17,9 +17,9 @@ const Main = () => {
             <div>
                 <p className='text-lg'>Hi I am</p>
                 <p className='text-orange1  text-3xl'>Chirag Bansal</p>
-                <p className='text-[60px] sm:leading-20'>Front-end</p>
+                <p className='text-[60px] sm:leading-20'>MERN Stack</p>
                 <p className='text-[60px] leading-8 md:text-center lg:text-center '>Developer</p>
-                <p className=' lg:w-[600px] mt-6'>Proficient front-end developer effective at creating robust websites that meet customer objectives. Experienced in collaborating with clients to assess needs, develop plans, and enhance design usability and performance. Skilled in using html, css, javascript, React.js, as well as other resources to fulfill design requirements.</p>
+                <p className=' lg:w-[600px] mt-6'>Competent MEAN Stack Developer with experience in developing high-quality web applications. Strengths include adeptness in MongoDB, Express.js, React.js, and Node.js, as well as strong ability to design and implement scalable solutions. Previous work has had significant impact on operational efficiency and overall system performance. Known for innovative problem-solving skills and commitment to maintaining up-to-date industry knowledge.</p>
                 <button
                     onClick={handleHireMeClick}
                     className='bg-orange1 p-2 rounded-md px-4 mt-5 hover:bg-white hover:text-orange1'

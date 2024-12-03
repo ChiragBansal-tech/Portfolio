@@ -17,11 +17,11 @@ const Experience = () => {
                         <div className='absolute border-dashed border-2 md:h-[90%] md:top-[63px] lg:h-[215px] lg:top-[67px] '></div>
                     </div>
                     <div>
-                        <p className=' text-xl md:text-2xl lg:text-2xl text-orange1'>Front-end Developer</p>
+                        <p className=' text-xl md:text-2xl lg:text-2xl text-orange1'>MERN Stack Developer</p>
                         <ul className=' md:w-[95%] lg:w-[95%] list-disc marker:text-orange1'>
-                            <li>Implemented responsive web designs for mobile devices using HTML5, CSS3, JavaScript, React.js, TailwindCSS framework.</li>
-                            <li>Integrated web applications with back-end systems using RESTful APIs.</li>
-                            <li>Debugged front-end code issues and resolved cross-browser compatibility problems.</li>
+                            <li>Developed RESTful web services using Node.js and Express framework.</li>
+                            <li>Designed MongoDB database schemas to store application data.</li>
+                            <li>Implemented authentication and authorization mechanisms using JSON Web Token.</li>
                             <li>Created custom responsive designs that optimized the website layout for various devices.</li>
                             <li>Developed reusable components that can be used in future projects with minimal effort.</li>
                         </ul>

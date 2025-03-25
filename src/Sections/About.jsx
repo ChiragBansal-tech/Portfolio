@@ -14,14 +14,14 @@ const About = () => {
             </div>
             <div className=' md:ml-8 lg:ml-8'>
                 <h1 className='text-[50px]'><span className='text-orange1'>About</span> Me</h1>
-                <p className='lg:w-[600px]'>Hello! I'm a dedicated MERN Stack Developer with a passion for crafting full-stack web applications that are intuitive, responsive, and scalable. With expertise in MongoDB, Express.js, React, and Node.js, I specialize in building end-to-end solutions that seamlessly integrate dynamic front-end interfaces with robust back-end architectures.</p>
+                <p className='lg:w-[600px]'>Competent Front-end Developer with experience in building high-quality, user-friendly web applications. Strengths include expertise in React.js, Next.js, TailwindCSS, and modern front-end technologies. Adept at creating responsive and interactive user interfaces that enhance user experience. Proven ability to collaborate effectively with cross-functional teams to deliver scalable and efficient solutions. Known for problem-solving skills and a commitment to staying updated with the latest industry trends and best practices.</p>
                 <Bar
                     label='HTML'
-                    value='95'
+                    value='98'
                 />
                 <Bar
                     label='CSS'
-                    value='92'
+                    value='97'
                 />
                 <Bar
                     label='JavaScript'
@@ -29,23 +29,23 @@ const About = () => {
                 />
                 <Bar
                     label='React.js'
-                    value='92'
+                    value='95'
                 />
                 <Bar
                     label='TailwindCSS'
                     value='95'
                 />
                 <Bar
-                    label='Node.js'
-                    value='75'
+                    label='Next.js'
+                    value='92'
                 />
                 <Bar
-                    label='Express.js'
+                    label='TypeScript'
+                    value='85'
+                />
+                <Bar
+                    label='Shopify'
                     value='80'
-                />
-                <Bar
-                    label='MongoDB'
-                    value='70'
                 />
             </div>
         </div>

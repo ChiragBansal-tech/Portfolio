@@ -88,8 +88,8 @@ const Header = () => {
                                 Close
                             </button>
                             <a
-                                href="/path/to/your-resume.pdf" // Replace with the actual path to your resume PDF
-                                download="Chirag_Bansal_Resume.pdf"
+                                href="/CB.pdf" 
+                                download="CB.pdf"
                                 className="bg-orange1 hover:bg-orange-500 text-white py-2 px-4 rounded"
                                 onClick={handleClick}
                             >

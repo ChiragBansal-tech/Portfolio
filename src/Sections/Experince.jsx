@@ -14,16 +14,18 @@ const Experience = () => {
                         <div className='border-dashed border-[3px] rounded-full w-[60px] h-[60px] flex items-center justify-center'>
                             <div className='bg-orange1 h-10 w-10 rounded-full'></div>
                         </div>
-                        <div className='absolute border-dashed border-2 md:h-[90%] md:top-[63px] lg:h-[215px] lg:top-[67px] '></div>
+                        {/* <div className='absolute border-dashed border-2 md:h-[90%] md:top-[63px] lg:h-[310px] lg:top-[67px] '></div> */}
                     </div>
                     <div>
-                        <p className=' text-xl md:text-2xl lg:text-2xl text-orange1'>MERN Stack Developer</p>
+                        <p className=' text-xl md:text-2xl lg:text-2xl text-orange1'>SDE-1</p>
                         <ul className=' md:w-[95%] lg:w-[95%] list-disc marker:text-orange1'>
-                            <li>Developed RESTful web services using Node.js and Express framework.</li>
-                            <li>Designed MongoDB database schemas to store application data.</li>
-                            <li>Implemented authentication and authorization mechanisms using JSON Web Token.</li>
-                            <li>Created custom responsive designs that optimized the website layout for various devices.</li>
-                            <li>Developed reusable components that can be used in future projects with minimal effort.</li>
+                            <li>Solely Worked on an admin Panel of a client using TailwindCSS and Next.js</li>
+                            <li>Integrated route an location find map functionalities using OpenLayers.js for location-based data visualization.</li>
+                            <li>Visualized analytics data through dynamic and interactive charts using ApexCharts.js for actionable insights.</li>
+                            <li>Implemented state management using Redux and Redux Thunk to enhance application performance and maintainability.</li>
+                            <li>Acquired basic proficiency in Redux Saga (latest version) for asynchronous data management in preparation for future projects.</li>
+                            <li>Collaborated on Shopify project, delivering client-driven updates, expanding website functionalities, and enhancing user engagement.</li>
+                            <li>Designed and developed custom animations for improved UI/UX, including an auto-scrolling search bar placeholder and an interactive premium purchase card animation.</li>
                         </ul>
                     </div>
                 </div>

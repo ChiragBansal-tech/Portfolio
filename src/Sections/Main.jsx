@@ -17,9 +17,9 @@ const Main = () => {
             <div>
                 <p className='text-lg'>Hi I am</p>
                 <p className='text-orange1  text-3xl'>Chirag Bansal</p>
-                <p className='text-[60px] sm:leading-20'>MERN Stack</p>
+                <p className='text-[60px] sm:leading-20'>Front-end</p>
                 <p className='text-[60px] leading-8 md:text-center lg:text-center '>Developer</p>
-                <p className=' lg:w-[600px] mt-6'>Competent MEAN Stack Developer with experience in developing high-quality web applications. Strengths include adeptness in MongoDB, Express.js, React.js, and Node.js, as well as strong ability to design and implement scalable solutions. Previous work has had significant impact on operational efficiency and overall system performance. Known for innovative problem-solving skills and commitment to maintaining up-to-date industry knowledge.</p>
+                <p className=' lg:w-[600px] mt-6'>Hello! I'm a dedicated Front-end Developer with a passion for crafting intuitive, responsive, and engaging user interfaces. With expertise in React, Next.js, and TailwindCSS, I specialize in building dynamic and user-centric web applications that deliver seamless experiences. I focus on writing clean, maintainable code while implementing interactive designs and ensuring optimal performance across devices.</p>
                 <button
                     onClick={handleHireMeClick}
                     className='bg-orange1 p-2 rounded-md px-4 mt-5 hover:bg-white hover:text-orange1'
@@ -53,7 +53,7 @@ const Main = () => {
                     <div className="bg-black border-orange1 border-2 p-6 rounded-lg shadow-lg max-w-lg w-full">
                         <h2 className="text-lg font-semibold mb-4 text-white">My Resume</h2>
                         <iframe
-                            src="/CHIRAG BANSAL.pdf" 
+                            src="/CB.pdf" 
                             title="Resume PDF"
                             className="w-full h-96 mb-4"
                         />
